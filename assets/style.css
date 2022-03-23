@@ -7,9 +7,18 @@
 display: none;
 }
 
-#timerArea {
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#timer {
     text-align: right;
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px 15px 10px 10px;
 }
 
@@ -28,7 +37,8 @@ h1 {
     padding: 80px 10px 80px 10px;
     margin: 10px 10px 10px 10px;
     align-content: center;
-    box-sizing: border-box;
+    border-radius: 10px;
+  
 }
 
 .questions {
@@ -42,11 +52,14 @@ h1 {
     text-align: center;
     border: 3px solid black;
     padding: 80px 10px 80px 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 460px;
     display: none;
+    align-content: center;
+    border-radius: 10px;
 }
 
 .qcard form {
     display: flex;
     align-content: space-around;
+    justify-content: center;
 }
