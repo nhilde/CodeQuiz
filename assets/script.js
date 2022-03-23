@@ -8,24 +8,23 @@ const question5 = document.querySelector("#question5");
 //example timer setup below
 //const timeIs = theQuestions.length * 18
 
+console.log("test")
+$("#startBtn").on("click", function() {
+    $("#startCard").hide();
+    $("#question1").show();
 
-function start() {
-// hide the start area
+    console.log("test2")
+})
 
-startCard.setAttribute("class", "hide")
-question1.setAttribute("class", "show")
-
-
-// unhide the questions 
-
-
-// start the timer
-
-// beign the question logic 
+$("#question1").on("submit", function() {
+    $("#question1").hide();
+    $("#question2").show();
+    console.log(test3)
 
 
-}
 
 
-// add the onclick function for the start button here 
-startBtn.onclick = start;
+
+
+
+})

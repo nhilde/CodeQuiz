@@ -27,6 +27,8 @@ h1 {
     border: 3px solid black;
     padding: 80px 10px 80px 10px;
     margin: 10px 10px 10px 10px;
+    align-content: center;
+    box-sizing: border-box;
 }
 
 .questions {
@@ -41,29 +43,10 @@ h1 {
     border: 3px solid black;
     padding: 80px 10px 80px 10px;
     margin: 10px 10px 10px 10px;
+    display: none;
 }
 
 .qcard form {
     display: flex;
     align-content: space-around;
-}
-
-#question1 {
-    display: none;
-}
-
-#question2 {
-    display: none;
-}
-
-#question3 {
-    display: none;
-}
-
-#question4 {
-    display: none;
-}
-
-#question5 {
-    display: none;
 }
