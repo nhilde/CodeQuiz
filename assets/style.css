@@ -22,7 +22,7 @@ input[type=submit] {
     padding: 10px 15px 10px 10px;
 }
 
-h1 {
+h1 h2 {
     text-align: center;
     font-size: 50px;
 }
@@ -33,7 +33,7 @@ h1 {
     flex: 0 0 50%;
     justify-content: center;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 80px 10px 80px 10px;
     margin: 10px 10px 10px 10px;
     align-content: center;
@@ -50,7 +50,7 @@ h1 {
     flex: 0 0 50%;
     justify-content: center;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 80px 10px 80px 10px;
     margin: 10px 10px 10px 460px;
     display: none;
@@ -62,4 +62,30 @@ h1 {
     display: flex;
     align-content: space-around;
     justify-content: center;
+}
+
+#endCard {
+    /* display: none; */
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    justify-content: center;
+    text-align: center;
+    /* border: 3px solid black; */
+    padding: 80px 10px 80px 10px;
+    margin: 10px 10px 10px 460px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+#tableBtn {
+    margin: 20px;
+}
+
+#mainTitle {
+    text-align: center;
+}
+
+#scoreDisplay {
+    display: flex;
+    flex-direction: column;
 }
